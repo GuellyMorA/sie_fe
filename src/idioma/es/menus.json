@@ -1,0 +1,191 @@
+{
+    "dashboard" :{
+        "nombre":"Tablero principal",
+        "color":"cyan accent-3"
+    },
+    "predios" :{
+        "nombre" : "1. Predios educativos"
+    },
+    "datos" : {
+        "nombre" : "2. Datos Generales",
+        "menu" : "/datos",
+        "color":"teal lighten-4",
+        "imgs" :{
+            "ubicacion":"/imgs/ubicacion.png",
+            "unidades":"/imgs/unidades.png",
+            "registro":"/imgs/fotos.png",
+            "vias":"/imgs/vias.png"
+        },
+        "items" : {
+            "ubicacion":"2.1 Ubicación del edificio",
+            "unidades":"2.2 Unidades que operan",
+            "registro":"2.3 Registro fotográfico",
+            "vias":"2.4 Vias de acceso"
+        },
+        "detalle" :{
+            "ubicacion":"Datos referentes a ubicación del predio.",
+            "unidades":"Datos sobre las unidades educativas que alberga el predio.",
+            "registro":"Almacena las fotografías más representativas del predio.",
+            "vias":"Descripción referente al acceso al predio educativo."
+        },
+        "url":{
+            "ubicacion":"/ubicaionedificio",
+            "unidades":"/unidadesoperan",
+            "registro":"/registrofotografico",
+            "vias":"/viasacceso"
+        },
+        "sub" : {
+            "registro":{
+            },
+            "ubicacion" : {
+                "formulario":{
+                    "id" : "1.1) Cod. Edificio",
+                    "cod_depto" : "1.2) Cod. Dpto.",
+                    "cod_prov" : "1.3) Cod. Prv.",
+                    "cod_mun" : "Cod. Mun.",
+                    "cod_canton" : "Cod. Cant.",
+                    "departamento" : "Departamento",
+                    "provincia" : "Provincia",
+                    "municipio" : "Municipio",
+                    "canton" : "Cantón",
+                    "distrito" : "Distrito",
+                    "localidad" : "Localidad",
+                    "zona" : "Zona",
+                    "direccion" : "Dirección"
+                }
+            },
+            "unidadesOperan" : {
+
+            },
+            "viasAccceso" :{
+
+            }
+        }
+    },
+    "caracteristicas" :{
+        "nombre" : "3. Caracteristicas",
+        "menu" : "/caracteristicas",
+        "color":"light-green lighten-4",
+        "imgs" :{
+            "terreno":"/imgs/terreno.png",
+            "edificacion":"/imgs/edificacion.png",
+            "accesibilidad":"/imgs/acceso.png"
+        },
+        "items" : {
+            "terreno":"3.1 Caracteristicas del terreno",
+            "edificacion":"3.2 Caracteristica de la edificacion",
+            "accesibilidad":"3.3 Accesibilidad"
+        },
+        "detalle" :{
+            "terreno":"Datos sobre la superficie del terreno.",
+            "edificacion":"Descripción de las características de la edificación.",
+            "accesibilidad":"Descripción de las condiciones de accesibilidad a espacios físicos del predio."
+        },
+        "url":{
+            "terreno":"/terreno",
+            "edificacion":"/edificacion",
+            "accesibilidad":"/accesibilidad"
+        },
+        "terreno" : {
+            "nombre":"Caracteristicas del Terreno."
+        },
+        "edificacion" : {
+            "nombre":"Caracteristicas de la edificación."
+        },
+        "accesibilidad" : {
+            "nombre":"Accesibilidad."
+        }
+
+    },
+    "ambientes":{
+        "nombre" : "4. Ambientes",
+        "menu" : "/ambientes",
+        "color":"pink lighten-3",
+        "imgs" :{
+            "pedagogicos":"/imgs/pedagogicos.png",
+            "nopedagogicos":"/imgs/nopedagogicos.png",
+            "otrosambientes":"/imgs/otrosambientes.png"
+        },
+        "items" : {
+            "pedagogicos":"4.1 Ambientes pedagógicos",
+            "nopedagogicos":"4.2 Ambientes no pedagógicos",
+            "otrosambientes":"4.3 Otros ambientes"
+        },
+        "detalle" :{
+            "pedagogicos":"Descripción de los espacios y ambientes donde se desarrollan las actividades para el desarrollo pedagógico, pedagógico deportivo, cultural y recreativo.",
+            "nopedagogicos":"Descripción de los ambientes en los cuales se desarrollan actividades no pedagógicas.",
+            "otrosambientes":"Descripción de los ambientes o espacios destinados para la higiene escolar."
+        },
+        "url":{
+            "pedagogicos":"/pedagogicos",
+            "nopedagogicos":"/nopedagogicos",
+            "otrosambientes":"/otrosambientes"
+        }
+    },
+    "servicios":{
+        "nombre" : "5. Servicios básicos del edificio",
+        "menu" : "/servicios",
+        "color":"blue-grey lighten-3",
+        "imgs" :{
+            "electricidad":"/imgs/electricidad.png",
+            "agua":"/imgs/agua.png",
+            "saneamiento":"/imgs/saneamiento.png",
+            "otrosservicios":"/imgs/otrosservicios.png"
+        },
+        "items" : {
+            "electricidad":"5.1 Servicio de electricidad",
+            "agua":"5.2 Servicio de agua potable",
+            "saneamiento":"5.3 Servicios de saneamiento",
+            "otrosservicios":"5.4 Otros Servicios"
+        },
+        "detalle" :{
+            "electricidad":"Datos referentes al suministro eléctrico en el predio educativo.",
+            "agua":"Datos referentes al suministro de agua en el predio educativo.",
+            "saneamiento":"Datos sobre las instalaciones higiénicas de saneamiento.",
+            "otrosservicios":"Datos acerca de otros servicios disponibles en el predio educativo, como aquellos que se encuentran próximos al mismo predio."
+        },
+        "url":{
+            "electricidad":"/electricidad",
+            "agua":"/agua",
+            "saneamiento":"/saneamiento",
+            "otrosservicios":"/otrosservicios"
+        }
+    },
+    "riesgos" :{
+        "nombre" : "6. Gestión de riesgos",
+        "menu" : "/riesgos",
+        "color":"red lighten-3",
+        "imgs" :{
+            "predio":"/imgs/predio.png",
+            "institucion":"/imgs/institucion.png",
+            "delitos":"/imgs/delitos.png"
+        },
+        "items" : {
+            "predio":"6.1 Riesgos en el Predio Educativo",
+            "institucion":"6.2 Riesgos en la Institución Educativa",
+            "delitos":"6.3 Delitos en el Predio Educativo"
+        },
+        "detalle" :{
+            "predio":"Descripción de los riesgos naturales y antrópicos y prevención de estos riesgos en el predio educativo.",
+            "institucion":"Descripción referente a riesgos naturales y antrópicos y prevención de estos riesgos en las instituciones educativas que alberga el predio educativo.",
+            "delitos":"Detalle sobre delitos acaecidos en el predio educativo."
+        },
+        "url":{
+            "predio":"/riesgospredios",
+            "institucion":"/riesgosinstitucion",
+            "delitos":"/riesgosdelitos"
+        },
+        "sub" : {
+            "predio" : {
+            },
+            "institucion" : {
+            },
+            "delitos" : {
+            }
+        }
+    },
+    "operativo" :{
+        "nombre" : "7. Operativo",
+        "color":"purple lighten-3"
+    }
+}
